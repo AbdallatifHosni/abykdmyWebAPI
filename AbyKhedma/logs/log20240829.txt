@@ -1,0 +1,110 @@
+2024-08-29 08:24:14.237 +03:00 [INF] User profile is available. Using 'C:\Users\abdal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-29 08:24:14.458 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 08:24:14.461 +03:00 [INF] Hosting environment: Development
+2024-08-29 08:24:14.463 +03:00 [INF] Content root path: G:\AbyKhedmaApi-master\AbyKhedmaApi-master\AbyKhedma
+2024-08-29 08:24:14.483 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/index.html - -
+2024-08-29 08:24:15.109 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/index.html - - - 200 - text/html;charset=utf-8 628.3128ms
+2024-08-29 08:24:15.155 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 08:24:15.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/_vs/browserLink - -
+2024-08-29 08:24:15.204 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 18.8143ms
+2024-08-29 08:24:15.357 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 193.6533ms
+2024-08-29 08:24:15.431 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/v1/swagger.json - -
+2024-08-29 08:24:15.884 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 453.0251ms
+2024-08-29 08:24:36.087 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/api/Category/getAll - -
+2024-08-29 08:24:36.103 +03:00 [INF] Executing endpoint 'AbyKhedma.Controllers.CategoryController.GetCategoryList (AbyKhedma)'
+2024-08-29 08:24:36.148 +03:00 [INF] Route matched with {action = "GetCategoryList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Core.Models.CategoryModel] GetCategoryList(AbyKhedma.Pagination.FilterDto) on controller AbyKhedma.Controllers.CategoryController (AbyKhedma).
+2024-08-29 08:24:36.255 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-29 08:24:37.517 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-29 08:24:37.520 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-29 08:24:39.690 +03:00 [INF] Executed DbCommand (108ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName], [c].[ClosingStatementId], [c].[CreatedBy], [c].[CreatedDate], [c].[Deleted], [c].[Description], [c].[HasChilds], [c].[IsSystem], [c].[OpeningStatementId], [c].[ParentCategoryId], [c].[UpdatedBy], [c].[UpdatedDate], [c].[Url], [c].[UrlPublicId]
+FROM [Categories] AS [c]
+2024-08-29 08:24:39.902 +03:00 [INF] Executed DbCommand (83ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[CreatedBy], [s].[CreatedDate], [s].[Deleted], [s].[StatemenType], [s].[StatementText], [s].[UpdatedBy], [s].[UpdatedDate]
+FROM [Statements] AS [s]
+2024-08-29 08:24:39.924 +03:00 [INF] Executing OkObjectResult, writing value of type 'AbyKhedma.Pagination.PagedResponse`1[[System.Collections.Generic.List`1[[Core.Models.CategoryModel, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-29 08:24:39.954 +03:00 [INF] Executed action AbyKhedma.Controllers.CategoryController.GetCategoryList (AbyKhedma) in 3801.4433ms
+2024-08-29 08:24:39.954 +03:00 [INF] Executed endpoint 'AbyKhedma.Controllers.CategoryController.GetCategoryList (AbyKhedma)'
+2024-08-29 08:24:39.964 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/api/Category/getAll - - - 200 - application/json;+charset=utf-8 3876.9285ms
+2024-08-29 08:25:17.519 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/api/Category/getAllForRequester - -
+2024-08-29 08:25:17.523 +03:00 [INF] Executing endpoint 'AbyKhedma.Controllers.CategoryController.GetCategoryListForRequester (AbyKhedma)'
+2024-08-29 08:25:17.534 +03:00 [INF] Route matched with {action = "GetCategoryListForRequester", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Core.Models.CategoryModel] GetCategoryListForRequester(AbyKhedma.Pagination.FilterDto) on controller AbyKhedma.Controllers.CategoryController (AbyKhedma).
+2024-08-29 08:25:17.549 +03:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1, AbyKhedma, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String[], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-29 08:25:17.555 +03:00 [INF] Executed action AbyKhedma.Controllers.CategoryController.GetCategoryListForRequester (AbyKhedma) in 20.8741ms
+2024-08-29 08:25:17.555 +03:00 [INF] Executed endpoint 'AbyKhedma.Controllers.CategoryController.GetCategoryListForRequester (AbyKhedma)'
+2024-08-29 08:25:17.556 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/api/Category/getAllForRequester - - - 401 - application/json;+charset=utf-8 36.9708ms
+2024-08-29 08:34:37.721 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/api/Service/get/3 - -
+2024-08-29 08:34:37.734 +03:00 [INF] Executing endpoint 'AbyKhedma.Controllers.ServiceController.GetServiceList (AbyKhedma)'
+2024-08-29 08:34:37.737 +03:00 [INF] Route matched with {action = "GetServiceList", controller = "Service"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Core.Models.ServiceModel] GetServiceList(Int32) on controller AbyKhedma.Controllers.ServiceController (AbyKhedma).
+2024-08-29 08:34:38.252 +03:00 [INF] Executed DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[CategoryID], [s].[CreatedBy], [s].[CreatedDate], [s].[Deleted], [s].[IsActive], [s].[IsSystem], [s].[Price], [s].[ServiceName], [s].[UpdatedBy], [s].[UpdatedDate]
+FROM [Services] AS [s]
+2024-08-29 08:34:38.321 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Core.Models.ServiceModel, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String[], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-29 08:34:38.331 +03:00 [INF] Executed action AbyKhedma.Controllers.ServiceController.GetServiceList (AbyKhedma) in 593.0247ms
+2024-08-29 08:34:38.331 +03:00 [INF] Executed endpoint 'AbyKhedma.Controllers.ServiceController.GetServiceList (AbyKhedma)'
+2024-08-29 08:34:38.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/api/Service/get/3 - - - 200 - application/json;+charset=utf-8 611.5202ms
+2024-08-29 13:50:48.348 +03:00 [INF] User profile is available. Using 'C:\Users\abdal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-29 13:50:48.809 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 13:50:48.814 +03:00 [INF] Hosting environment: Development
+2024-08-29 13:50:48.817 +03:00 [INF] Content root path: G:\WorkSpace-AbykhedmiAPI\AbyKhedma
+2024-08-29 13:50:48.879 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/index.html - -
+2024-08-29 13:50:50.079 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/index.html - - - 200 - text/html;charset=utf-8 1192.9143ms
+2024-08-29 13:50:50.215 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/_vs/browserLink - -
+2024-08-29 13:50:50.221 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 13:50:50.239 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 18.2938ms
+2024-08-29 13:50:50.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 115.9106ms
+2024-08-29 13:50:50.376 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/v1/swagger.json - -
+2024-08-29 13:50:51.698 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1321.9164ms
+2024-08-29 14:35:22.208 +03:00 [INF] User profile is available. Using 'C:\Users\abdal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-29 14:35:22.591 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 14:35:22.623 +03:00 [INF] Hosting environment: Development
+2024-08-29 14:35:22.626 +03:00 [INF] Content root path: G:\WorkSpace-AbykhedmiAPI\AbyKhedma
+2024-08-29 14:35:22.679 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger - -
+2024-08-29 14:35:23.602 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/index.html - -
+2024-08-29 14:35:23.737 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger - - - 301 - - 1058.9126ms
+2024-08-29 14:35:23.906 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/index.html - - - 200 - text/html;charset=utf-8 304.1591ms
+2024-08-29 14:35:23.941 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/_vs/browserLink - -
+2024-08-29 14:35:23.941 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/swagger-ui-bundle.js - -
+2024-08-29 14:35:23.941 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 14:35:23.944 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/swagger-ui.css - -
+2024-08-29 14:35:23.944 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js - -
+2024-08-29 14:35:23.947 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 6.0857ms
+2024-08-29 14:35:23.974 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-29 14:35:23.977 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/swagger-ui.css - - - 200 144929 text/css 33.3357ms
+2024-08-29 14:35:23.978 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-29 14:35:23.993 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 48.4699ms
+2024-08-29 14:35:24.003 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-29 14:35:24.039 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 98.0568ms
+2024-08-29 14:35:24.040 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 99.1025ms
+2024-08-29 14:35:24.358 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/v1/swagger.json - -
+2024-08-29 14:35:24.742 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 383.6870ms
+2024-08-29 14:35:34.817 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/api/Category/getAll?PageNumber=1&PageSize=10 - -
+2024-08-29 14:35:34.826 +03:00 [INF] Executing endpoint 'AbyKhedma.Controllers.CategoryController.GetCategoryList (AbyKhedma)'
+2024-08-29 14:35:34.857 +03:00 [INF] Route matched with {action = "GetCategoryList", controller = "Category"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[Core.Models.CategoryModel] GetCategoryList(AbyKhedma.Pagination.FilterDto) on controller AbyKhedma.Controllers.CategoryController (AbyKhedma).
+2024-08-29 14:35:34.945 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-29 14:35:35.802 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-29 14:35:35.805 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-29 14:35:39.214 +03:00 [INF] Executed DbCommand (151ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Id], [c].[CategoryName], [c].[ClosingStatementId], [c].[CreatedBy], [c].[CreatedDate], [c].[Deleted], [c].[Description], [c].[HasChilds], [c].[IsSystem], [c].[OpeningStatementId], [c].[ParentCategoryId], [c].[UpdatedBy], [c].[UpdatedDate], [c].[Url], [c].[UrlPublicId]
+FROM [Categories] AS [c]
+2024-08-29 14:35:39.475 +03:00 [INF] Executed DbCommand (124ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[Id], [s].[CreatedBy], [s].[CreatedDate], [s].[Deleted], [s].[StatemenType], [s].[StatementText], [s].[UpdatedBy], [s].[UpdatedDate]
+FROM [Statements] AS [s]
+2024-08-29 14:35:39.514 +03:00 [INF] Executing OkObjectResult, writing value of type 'AbyKhedma.Pagination.PagedResponse`1[[System.Collections.Generic.List`1[[Core.Models.CategoryModel, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-29 14:35:39.553 +03:00 [INF] Executed action AbyKhedma.Controllers.CategoryController.GetCategoryList (AbyKhedma) in 4689.9519ms
+2024-08-29 14:35:39.554 +03:00 [INF] Executed endpoint 'AbyKhedma.Controllers.CategoryController.GetCategoryList (AbyKhedma)'
+2024-08-29 14:35:39.563 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/api/Category/getAll?PageNumber=1&PageSize=10 - - - 200 - application/json;+charset=utf-8 4746.2180ms
+2024-08-29 14:37:58.063 +03:00 [INF] User profile is available. Using 'C:\Users\abdal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-29 14:37:58.273 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-29 14:37:58.277 +03:00 [INF] Hosting environment: Development
+2024-08-29 14:37:58.279 +03:00 [INF] Content root path: G:\WorkSpace-AbykhedmiAPI\AbyKhedma
+2024-08-29 14:37:58.302 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger - -
+2024-08-29 14:37:58.595 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/index.html - -
+2024-08-29 14:37:58.803 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger - - - 301 - - 501.7739ms
+2024-08-29 14:37:59.063 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/index.html - - - 200 - text/html;charset=utf-8 467.5023ms
+2024-08-29 14:37:59.126 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/_vs/browserLink - -
+2024-08-29 14:37:59.295 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/_framework/aspnetcore-browser-refresh.js - -
+2024-08-29 14:37:59.321 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 22.9388ms
+2024-08-29 14:37:59.375 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 249.1812ms
+2024-08-29 14:37:59.421 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/v1/swagger.json - -
+2024-08-29 14:37:59.734 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 312.7667ms

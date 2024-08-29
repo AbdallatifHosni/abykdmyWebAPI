@@ -1,0 +1,418 @@
+2024-08-21 18:59:37.117 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-21 18:59:37.749 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 18:59:37.751 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 18:59:52.946 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-21 18:59:53.417 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 18:59:53.418 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:00:57.599 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-21 19:00:58.061 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:00:58.062 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:03:45.513 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-21 19:03:45.986 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:03:45.987 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:12:39.762 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-21 19:12:40.240 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:12:40.241 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:40:53.243 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-21 19:40:53.715 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:40:53.716 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:42:29.099 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-21 19:42:29.572 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:42:29.574 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:44:13.069 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-21 19:44:13.563 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:44:13.564 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:50:51.697 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-21 19:50:52.195 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:50:52.196 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:50:52.389 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:50:52.391 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:51:09.080 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-21 19:51:09.558 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:51:09.559 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 19:51:10.526 +03:00 [INF] Executed DbCommand (124ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-21 19:51:10.637 +03:00 [INF] Executed DbCommand (92ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-21 19:51:10.724 +03:00 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-21 19:51:10.889 +03:00 [INF] Executed DbCommand (99ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-08-21 19:51:10.969 +03:00 [INF] Executed DbCommand (79ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-08-21 19:51:11.050 +03:00 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-08-21 19:51:11.140 +03:00 [INF] Executed DbCommand (87ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-08-21 19:51:11.170 +03:00 [INF] Applying migration '20240821165052_IntialMigration'.
+2024-08-21 19:51:11.418 +03:00 [INF] Executed DbCommand (89ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Categories] (
+    [Id] int NOT NULL IDENTITY,
+    [CategoryName] nvarchar(150) NOT NULL,
+    [Description] nvarchar(250) NULL,
+    [OpeningStatementId] int NULL,
+    [ClosingStatementId] int NULL,
+    [Url] nvarchar(400) NULL,
+    [UrlPublicId] nvarchar(30) NULL,
+    [ParentCategoryId] int NULL,
+    [HasChilds] bit NULL,
+    [IsSystem] bit NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_Categories] PRIMARY KEY ([Id])
+);
+2024-08-21 19:51:11.503 +03:00 [INF] Executed DbCommand (83ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Files] (
+    [PublicId] nvarchar(30) NOT NULL,
+    [Url] nvarchar(200) NOT NULL,
+    [FileType] int NOT NULL,
+    CONSTRAINT [PK_Files] PRIMARY KEY ([PublicId])
+);
+2024-08-21 19:51:11.588 +03:00 [INF] Executed DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [RequestStatusStats] (
+    [Description] nvarchar(max) NOT NULL,
+    [Key] nvarchar(max) NOT NULL,
+    [Value] int NOT NULL,
+    [Field1] nvarchar(max) NULL,
+    [Field2] nvarchar(max) NULL,
+    [Field3] nvarchar(max) NULL,
+    [Field4] nvarchar(max) NULL
+);
+2024-08-21 19:51:11.673 +03:00 [INF] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Statements] (
+    [Id] int NOT NULL IDENTITY,
+    [StatementText] nvarchar(200) NOT NULL,
+    [StatemenType] int NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_Statements] PRIMARY KEY ([Id])
+);
+2024-08-21 19:51:11.754 +03:00 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [StatusLookup] (
+    [Id] int NOT NULL IDENTITY,
+    [Title] nvarchar(100) NOT NULL,
+    [StatusType] int NOT NULL,
+    CONSTRAINT [PK_StatusLookup] PRIMARY KEY ([Id])
+);
+2024-08-21 19:51:11.851 +03:00 [INF] Executed DbCommand (97ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [PhoneNumber] nvarchar(25) NULL,
+    [UserName] nvarchar(25) NULL,
+    [Email] nvarchar(50) NULL,
+    [FirstName] nvarchar(25) NULL,
+    [FamilyName] nvarchar(25) NULL,
+    [FullName] nvarchar(60) NULL,
+    [PhotoUrl] nvarchar(400) NULL,
+    [IsActive] bit NULL,
+    [PasswordHash] varbinary(max) NULL,
+    [PasswordSalt] varbinary(max) NULL,
+    [Role] nvarchar(15) NULL,
+    [PassCode] nvarchar(10) NULL,
+    [PassCodeExpiry] datetime2 NOT NULL,
+    [LastLoginTime] datetime2 NULL,
+    [UrlPublicId] nvarchar(30) NULL,
+    [RefreshToken] nvarchar(100) NULL,
+    [Subscription] int NULL,
+    [SubscriptionStartDate] datetime2 NULL,
+    [SubscriptionEndDate] datetime2 NULL,
+    [PaymentAmount] decimal(18,2) NULL,
+    [PaymentReceiptUrl] nvarchar(400) NULL,
+    [PaymentReceiptUrlPublicId] nvarchar(30) NULL,
+    [DeviceToken] nvarchar(255) NULL,
+    [PasscodeResendTryCount] int NULL,
+    [LoginFailureCount] int NULL,
+    [MsgProvider] nvarchar(max) NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id])
+);
+2024-08-21 19:51:12.541 +03:00 [INF] Executed DbCommand (102ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Reels] (
+    [Id] int NOT NULL IDENTITY,
+    [CategoryId] int NOT NULL,
+    [Url] nvarchar(400) NOT NULL,
+    [UrlPublicId] nvarchar(30) NOT NULL,
+    [FileType] int NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_Reels] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Reels_Categories_CategoryId] FOREIGN KEY ([CategoryId]) REFERENCES [Categories] ([Id]) ON DELETE CASCADE
+);
+2024-08-21 19:51:12.634 +03:00 [INF] Executed DbCommand (93ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Services] (
+    [Id] int NOT NULL IDENTITY,
+    [ServiceName] nvarchar(150) NOT NULL,
+    [IsActive] bit NOT NULL,
+    [CategoryID] int NOT NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [IsSystem] bit NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_Services] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Services_Categories_CategoryID] FOREIGN KEY ([CategoryID]) REFERENCES [Categories] ([Id]) ON DELETE CASCADE
+);
+2024-08-21 19:51:14.433 +03:00 [INF] Executed DbCommand (89ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AuditLogs] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] int NOT NULL,
+    [ActivityDescription] nvarchar(max) NOT NULL,
+    [ActivityTime] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuditLogs] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AuditLogs_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-08-21 19:51:14.547 +03:00 [INF] Executed DbCommand (113ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [RequestAudits] (
+    [Id] int NOT NULL IDENTITY,
+    [RequestId] int NOT NULL,
+    [StatusId] int NOT NULL,
+    [EmployeeId] int NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_RequestAudits] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_RequestAudits_StatusLookup_StatusId] FOREIGN KEY ([StatusId]) REFERENCES [StatusLookup] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_RequestAudits_Users_EmployeeId] FOREIGN KEY ([EmployeeId]) REFERENCES [Users] ([Id])
+);
+2024-08-21 19:51:14.635 +03:00 [INF] Executed DbCommand (87ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [UserNotifications] (
+    [Id] int NOT NULL IDENTITY,
+    [IsRead] bit NOT NULL,
+    [Message] nvarchar(max) NOT NULL,
+    [UserId] int NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_UserNotifications] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_UserNotifications_Users_UserId] FOREIGN KEY ([UserId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-08-21 19:51:15.652 +03:00 [INF] Executed DbCommand (105ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Requests] (
+    [Id] int NOT NULL IDENTITY,
+    [ServiceId] int NOT NULL,
+    [RequesterId] int NOT NULL,
+    [StatusId] int NOT NULL,
+    [AssignedEmployeeId] int NULL,
+    [IsLockedToDateTime] datetime2 NULL,
+    [Description] nvarchar(255) NULL,
+    [IsShowedByTheEmployee] bit NULL,
+    [IsShowedByTheRequester] bit NULL,
+    [IsArchived] bit NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_Requests] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Requests_Services_ServiceId] FOREIGN KEY ([ServiceId]) REFERENCES [Services] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Requests_StatusLookup_StatusId] FOREIGN KEY ([StatusId]) REFERENCES [StatusLookup] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_Requests_Users_AssignedEmployeeId] FOREIGN KEY ([AssignedEmployeeId]) REFERENCES [Users] ([Id]),
+    CONSTRAINT [FK_Requests_Users_RequesterId] FOREIGN KEY ([RequesterId]) REFERENCES [Users] ([Id]) ON DELETE CASCADE
+);
+2024-08-21 19:51:15.743 +03:00 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Requirements] (
+    [Id] int NOT NULL IDENTITY,
+    [ServiceID] int NOT NULL,
+    [Description] nvarchar(160) NOT NULL,
+    [StepOrder] int NOT NULL,
+    [RequirementType] int NOT NULL,
+    [Url] nvarchar(450) NULL,
+    [IsSystem] bit NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_Requirements] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Requirements_Services_ServiceID] FOREIGN KEY ([ServiceID]) REFERENCES [Services] ([Id]) ON DELETE CASCADE
+);
+2024-08-21 19:51:16.612 +03:00 [INF] Executed DbCommand (110ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [RequestFlows] (
+    [Id] int NOT NULL IDENTITY,
+    [RequestId] int NOT NULL,
+    [RequirementId] int NULL,
+    [EmployeeId] int NULL,
+    [Status] int NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_RequestFlows] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_RequestFlows_Requests_RequestId] FOREIGN KEY ([RequestId]) REFERENCES [Requests] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_RequestFlows_Users_EmployeeId] FOREIGN KEY ([EmployeeId]) REFERENCES [Users] ([Id])
+);
+2024-08-21 19:51:16.703 +03:00 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Answers] (
+    [Id] int NOT NULL IDENTITY,
+    [Description] nvarchar(150) NOT NULL,
+    [IsTerminationAnswer] bit NULL,
+    [TerminationStatement] nvarchar(200) NULL,
+    [HasSubAnswerRequirement] int NULL,
+    [SubAnswerRequirementId] int NULL,
+    [RequirementId] int NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_Answers] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Answers_Requirements_RequirementId] FOREIGN KEY ([RequirementId]) REFERENCES [Requirements] ([Id])
+);
+2024-08-21 19:51:17.928 +03:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [ChatMessages] (
+    [Id] int NOT NULL IDENTITY,
+    [RequestFlowId] int NOT NULL,
+    [FromUserId] int NULL,
+    [ToUserId] int NULL,
+    [Url] nvarchar(400) NULL,
+    [UrlPublicId] nvarchar(50) NULL,
+    [IsRead] int NOT NULL,
+    [AnswerId] int NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_ChatMessages] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_ChatMessages_Answers_AnswerId] FOREIGN KEY ([AnswerId]) REFERENCES [Answers] ([Id])
+);
+2024-08-21 19:51:18.029 +03:00 [INF] Executed DbCommand (100ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [SubAnswerRequirements] (
+    [Id] int NOT NULL IDENTITY,
+    [ServiceID] int NOT NULL,
+    [Description] nvarchar(150) NOT NULL,
+    [StepOrder] int NOT NULL,
+    [RequirementType] int NOT NULL,
+    [Url] nvarchar(max) NULL,
+    [AnswerId] int NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_SubAnswerRequirements] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_SubAnswerRequirements_Answers_AnswerId] FOREIGN KEY ([AnswerId]) REFERENCES [Answers] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_SubAnswerRequirements_Services_ServiceID] FOREIGN KEY ([ServiceID]) REFERENCES [Services] ([Id]) ON DELETE CASCADE
+);
+2024-08-21 19:51:19.460 +03:00 [INF] Executed DbCommand (95ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Messages] (
+    [Id] int NOT NULL IDENTITY,
+    [MessageType] int NOT NULL,
+    [Content] nvarchar(400) NOT NULL,
+    [ChatMessageId] int NOT NULL,
+    [CreatedBy] int NOT NULL,
+    [CreatedDate] datetime2 NOT NULL,
+    [UpdatedBy] int NOT NULL,
+    [UpdatedDate] datetime2 NOT NULL,
+    [Deleted] bit NULL,
+    CONSTRAINT [PK_Messages] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Messages_ChatMessages_ChatMessageId] FOREIGN KEY ([ChatMessageId]) REFERENCES [ChatMessages] ([Id]) ON DELETE CASCADE
+);
+2024-08-21 19:51:19.541 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Answers_RequirementId] ON [Answers] ([RequirementId]);
+2024-08-21 19:51:19.621 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Answers_SubAnswerRequirementId] ON [Answers] ([SubAnswerRequirementId]);
+2024-08-21 19:51:19.701 +03:00 [INF] Executed DbCommand (79ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AuditLogs_UserId] ON [AuditLogs] ([UserId]);
+2024-08-21 19:51:19.781 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_ChatMessages_AnswerId] ON [ChatMessages] ([AnswerId]);
+2024-08-21 19:51:19.861 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Messages_ChatMessageId] ON [Messages] ([ChatMessageId]);
+2024-08-21 19:51:20.740 +03:00 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Reels_CategoryId] ON [Reels] ([CategoryId]);
+2024-08-21 19:51:20.820 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_RequestAudits_EmployeeId] ON [RequestAudits] ([EmployeeId]);
+2024-08-21 19:51:20.900 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_RequestAudits_StatusId] ON [RequestAudits] ([StatusId]);
+2024-08-21 19:51:20.981 +03:00 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_RequestFlows_EmployeeId] ON [RequestFlows] ([EmployeeId]);
+2024-08-21 19:51:21.062 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_RequestFlows_RequestId] ON [RequestFlows] ([RequestId]);
+2024-08-21 19:51:21.145 +03:00 [INF] Executed DbCommand (83ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Requests_AssignedEmployeeId] ON [Requests] ([AssignedEmployeeId]);
+2024-08-21 19:51:21.226 +03:00 [INF] Executed DbCommand (81ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Requests_RequesterId] ON [Requests] ([RequesterId]);
+2024-08-21 19:51:21.306 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Requests_ServiceId] ON [Requests] ([ServiceId]);
+2024-08-21 19:51:21.389 +03:00 [INF] Executed DbCommand (83ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Requests_StatusId] ON [Requests] ([StatusId]);
+2024-08-21 19:51:21.469 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Requirements_ServiceID] ON [Requirements] ([ServiceID]);
+2024-08-21 19:51:21.550 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Services_CategoryID] ON [Services] ([CategoryID]);
+2024-08-21 19:51:21.703 +03:00 [INF] Executed DbCommand (88ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [IX_SubAnswerRequirements_AnswerId] ON [SubAnswerRequirements] ([AnswerId]);
+2024-08-21 19:51:21.785 +03:00 [INF] Executed DbCommand (82ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_SubAnswerRequirements_ServiceID] ON [SubAnswerRequirements] ([ServiceID]);
+2024-08-21 19:51:21.866 +03:00 [INF] Executed DbCommand (80ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_UserNotifications_UserId] ON [UserNotifications] ([UserId]);
+2024-08-21 19:51:21.951 +03:00 [INF] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Answers] ADD CONSTRAINT [FK_Answers_SubAnswerRequirements_SubAnswerRequirementId] FOREIGN KEY ([SubAnswerRequirementId]) REFERENCES [SubAnswerRequirements] ([Id]);
+2024-08-21 19:51:22.036 +03:00 [INF] Executed DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240821165052_IntialMigration', N'7.0.13');
+2024-08-21 20:57:49.559 +03:00 [INF] User profile is available. Using 'C:\Users\abdal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-21 20:57:49.931 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 20:57:49.936 +03:00 [INF] Hosting environment: Development
+2024-08-21 20:57:49.938 +03:00 [INF] Content root path: G:\AbyKhedmaApi-master\AbyKhedmaApi-master\AbyKhedma
+2024-08-21 20:57:49.993 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/index.html - -
+2024-08-21 20:57:51.617 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/index.html - - - 200 - text/html;charset=utf-8 1623.5576ms
+2024-08-21 20:57:51.755 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/_framework/aspnetcore-browser-refresh.js - -
+2024-08-21 20:57:51.759 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/_vs/browserLink - -
+2024-08-21 20:57:51.762 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 5.6008ms
+2024-08-21 20:57:52.071 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 311.8220ms
+2024-08-21 20:57:52.123 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/v1/swagger.json - -
+2024-08-21 20:57:53.005 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 881.7725ms
+2024-08-21 20:58:10.416 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44305/api/Account/weblogin application/json 69
+2024-08-21 20:58:10.427 +03:00 [INF] CORS policy execution failed.
+2024-08-21 20:58:10.427 +03:00 [INF] Request origin https://localhost:44305 does not have permission to access the resource.
+2024-08-21 20:58:10.432 +03:00 [INF] Executing endpoint 'AbyKhedma.Controllers.AccountController.WebLogin (AbyKhedma)'
+2024-08-21 20:58:10.475 +03:00 [INF] Route matched with {action = "WebLogin", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[AbyKhedma.Core.Models.UserModel]] WebLogin(Core.Dtos.EmployeeUserLoginDto) on controller AbyKhedma.Controllers.AccountController (AbyKhedma).
+2024-08-21 20:58:10.571 +03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2024-08-21 20:58:11.589 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Service'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 20:58:11.592 +03:00 [WRN] No store type was specified for the decimal property 'PaymentAmount' on entity type 'User'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2024-08-21 20:58:13.167 +03:00 [INF] Executed DbCommand (117ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [u].[Id], [u].[CreatedBy], [u].[CreatedDate], [u].[Deleted], [u].[DeviceToken], [u].[Email], [u].[FamilyName], [u].[FirstName], [u].[FullName], [u].[IsActive], [u].[LastLoginTime], [u].[LoginFailureCount], [u].[MsgProvider], [u].[PassCode], [u].[PassCodeExpiry], [u].[PasscodeResendTryCount], [u].[PasswordHash], [u].[PasswordSalt], [u].[PaymentAmount], [u].[PaymentReceiptUrl], [u].[PaymentReceiptUrlPublicId], [u].[PhoneNumber], [u].[PhotoUrl], [u].[RefreshToken], [u].[Role], [u].[Subscription], [u].[SubscriptionEndDate], [u].[SubscriptionStartDate], [u].[UpdatedBy], [u].[UpdatedDate], [u].[UrlPublicId], [u].[UserName]
+FROM [Users] AS [u]
+2024-08-21 20:58:13.194 +03:00 [INF] Executing UnauthorizedObjectResult, writing value of type '<>f__AnonymousType0`4[[System.Boolean, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[<>f__AnonymousType1, AbyKhedma, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String[], System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-08-21 20:58:13.213 +03:00 [INF] Executed action AbyKhedma.Controllers.AccountController.WebLogin (AbyKhedma) in 2734.2174ms
+2024-08-21 20:58:13.213 +03:00 [INF] Executed endpoint 'AbyKhedma.Controllers.AccountController.WebLogin (AbyKhedma)'
+2024-08-21 20:58:13.223 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44305/api/Account/weblogin application/json 69 - 401 - application/json;+charset=utf-8 2806.9301ms
+2024-08-21 21:13:56.092 +03:00 [INF] User profile is available. Using 'C:\Users\abdal\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-21 21:13:56.288 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-21 21:13:56.293 +03:00 [INF] Hosting environment: Development
+2024-08-21 21:13:56.294 +03:00 [INF] Content root path: G:\AbyKhedmaApi-master\AbyKhedmaApi-master\AbyKhedma
+2024-08-21 21:13:56.315 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/index.html - -
+2024-08-21 21:13:56.733 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/index.html - - - 200 - text/html;charset=utf-8 420.3255ms
+2024-08-21 21:13:56.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/_vs/browserLink - -
+2024-08-21 21:13:56.771 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/_framework/aspnetcore-browser-refresh.js - -
+2024-08-21 21:13:56.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/_framework/aspnetcore-browser-refresh.js - - - 200 13754 application/javascript;+charset=utf-8 8.2458ms
+2024-08-21 21:13:56.882 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 111.1695ms
+2024-08-21 21:13:56.935 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44305/swagger/v1/swagger.json - -
+2024-08-21 21:13:57.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44305/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 320.3924ms
